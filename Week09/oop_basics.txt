@@ -1,0 +1,10 @@
+In object oriented programing, important objects are defined by various classes, which each have their own properties as per the object they represent.
+For instance, a program written to manage attendance in a classroom might define a class for people, which includes their age, name, and role in the classroom.
+These roles might then be represented by student and teacher classes, with properties for students including GPA and classes, and properties for teachers including classes taught.
+
+The __init__ method in python is used when creating a new object, which is a new instance of a class. 
+It allows the programmer to initialise the attributes of the instance upon its creation.
+For instance, when creating the previously mentioned attendance program, the __init__ method would be used to define the attributes like age name and role
+
+The self keyword is used by an object to refer to its attributes as opposed to the attributes of the entire class.
+For instance, in the previously mentioned attendance program, the self keyword would be used to view the attributes of a specific student or teacher.
