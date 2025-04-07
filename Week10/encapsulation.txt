@@ -1,0 +1,7 @@
+- Name mangling in python, is a process applied to class attributes which are intended to be private, meaning unable to be directly accessed by subclasses.
+- By initalising these attributes with the double underscore syntax, python mangles the attributes name in a algorythmic and reversable way.
+- As a result, because their new mangled names are different, when a subclass attempts to refer to the attribute, python returns an error that there is no matching attribute.
+
+- A public field/method is one that can be accessed from anywhere in the program.
+- A private field/method is one that can only be accessed from the class that defines it, and no where else in the program.
+- A protected field/method is one that can be accessed from the class that defines it, and subclasses of that class, but no where else in the program.
