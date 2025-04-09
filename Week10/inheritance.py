@@ -7,14 +7,10 @@ class Vehicle:
         print("The engine is starting up")
 
 class Car(Vehicle):
-    def __init__(self, year_manufactured, model, colour):
-        super().__init__(year_manufactured, model, colour)
     def start_engine(self):
         print(f"The {self.colour} {self.year_manufactured} {self.model} car is starting its engine")
 
 class Motorcycle(Vehicle):
-    def __init__(self, year_manufactured, model, colour):
-        super().__init__(year_manufactured, model, colour)
     def start_engine(self):
         print(f"The {self.colour} {self.year_manufactured} {self.model} motorcycle is starting its engine")
 
