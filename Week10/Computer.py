@@ -18,6 +18,9 @@ class Computer:
         self.GPU.compute()
     def calculate_price(self):
         self.price = self.CPU.price + self.RAM.price + self.HardDisk.price + self.GPU.price
+    def print_price(self):
+        if self.price == 0:
+            self.calculate_price()
         print(f"Price: ${self.price}")
 
 CPU_1 = CPU(100, "Intel", 7600)
@@ -28,4 +31,4 @@ GPU_1 = GPU(275, "Nvidia", "RTX 2080", 1515)
 my_computer = Computer(CPU_1, RAM_1, HardDisk_1, GPU_1)
 my_computer.start()
 my_computer.compute()
-my_computer.calculate_price()
+my_computer.print_price()
