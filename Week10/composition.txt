@@ -1,0 +1,14 @@
+- A class relationship is best represented by inheritance when the subclass is the master class in addition to the subclass
+- For instance, a student class might be a subclass of the person master class, because a student is a person in addition to a student
+- In contrast, composition best represents a relationship where one class is a part of a master class, but isn't the master class
+- For instance, an engine is a part of a car, but an engine is not itself a car, meaning the relationship would best be represented with composition
+
+- Composition makes your code more reusable when working in teams because it reduces the scope of each individual aspect of a master class into smaller classes.
+- This allows for members of a team to focus on individual elements of a larger class without all having to work on the same master class.
+- For instance, if a team was working on developing features for a car, if the engine of the car needed to be reprogrammed, people in the team could work on that subclass on its own.
+- This allows for the rest of the team to continue working on the master class, with each having a smaller scope than if they were all working on the same class.
+
+- If a subclass overrides too many methods from its parent class, it could have various negative impacts on the program.
+- For instance, overriding some methods for specific subclasses may change the internal state of the parent class, which may lead to bugs.
+- This also removes the benefits of inheritance and polymorphism, which is that the behaviour of each individual subclass in intiutive based on the behaviour of the parent class.
+- If too many methods are overridden, the behaviour of each subclass will eventually become harder to infer from the parent class, thus removing this benefit.
