@@ -1,0 +1,9 @@
+- A class diagram represents the application of a program by showing the interaction between different classes, each one with 3 unique sections
+- The class name is at the top of each class, and shows its name
+- The middle section contains the classes attributes, which are the specific fields of data held by the class, and their type
+- The bottom section contains the classes operations, or the methods of the class
+
+- The benefit of writing out UML class diagrams before implementing them using code is that is that it streamlines your workflow, prevents spaghetti code, and aids collaboration.
+- It sreamlines your workflow by ensuring you know exactly what classes and functions to impliment before you start programming.
+- As a result, you avoid programming the implementation of unnecessary superfluous classes or functions.
+- It also aids in collaboration by allowing collaborators to see exactly how each class should interact with each other, allowing developers to each program the implementation of seperate interconnected classes or functions.
