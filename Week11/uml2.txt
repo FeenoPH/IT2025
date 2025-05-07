@@ -1,0 +1,5 @@
+- A class doing too much is when one class has an excess of fields and methods, that otherwise could be handled by alternate classes
+- This is often a indication of poorly designed code, as it makes the class in question difficult for different developers to comprehend, and diminishes the benefits of OOP
+- For instance, in a program for a library system, the library assistant could have fields of name, hair colour, gender, etc.
+- This would be too much for the class to manage as well as functions like loaning out books or accessing the libraries archives
+- As such, it would make more sense for this program to manage these fields within the parent class of person, so that they are still accessable, while the library assistant class would be dedicated to the necessary fields and methods of that class
